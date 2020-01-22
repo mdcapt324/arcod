@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
+# Author	:	Erik Dubois
+# Website	:	https://www.erikdubois.be
 # Website	:	https://www.arcolinux.info
 # Website	:	https://www.arcolinux.com
 # Website	:	https://www.arcolinuxd.com
@@ -17,7 +19,7 @@ set -e
 git init
 git config --global user.name "Michael Clement"
 git config --global user.email "mclement@tushka.k12.ok.us"
-sudo git config --system core.editor vim
+sudo git config --system core.editor nano
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=25000'
 git config --global push.default simple
